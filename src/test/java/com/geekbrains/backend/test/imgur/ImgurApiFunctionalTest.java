@@ -143,6 +143,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .when()
                 .post("image/heo9WsG/favorite");
     }
+    
 }
 
 
