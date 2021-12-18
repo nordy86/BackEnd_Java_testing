@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="220p8zrffIGQALNEPOd76RaSllM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/ImgurApiFunctionalTest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/imgur" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.geekbrains.backend.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImgurApiFunctionalTest.commentToPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="METHOD_NAME" value="commentToPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImgurApiFunctionalTest.deleteAlbum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="METHOD_NAME" value="deleteAlbum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImgurApiFunctionalTest.deleteImageById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="METHOD_NAME" value="deleteImageById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImgurApiFunctionalTest.favouriteImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="METHOD_NAME" value="favouriteImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.favouriteImage" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteAlbum" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteImageById" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.commentToPost" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="" />
+      <created>1638984204059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638984204059</updated>
+      <workItem from="1638984205449" duration="7272000" />
+      <workItem from="1639244305384" duration="3475000" />
+      <workItem from="1639594525583" duration="1397000" />
+      <workItem from="1639840927025" duration="10233000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
+      <created>1638990916597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638990916597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
+  </component>
+</project>
