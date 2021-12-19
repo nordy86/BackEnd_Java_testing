@@ -22,6 +22,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
+                .spec(responseSpecification)
                 .body("data.id", is(158044357))
                 .log()
                 .all()
@@ -40,6 +41,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
+                .spec(responseSpecification)
                 .body("data.size", is(45428))
                 .body("data.type", is("image/jpeg"))
                 .body("data.name", is("Hackerman"))
@@ -62,7 +64,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -77,7 +79,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -93,8 +95,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("success", is(true))
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -110,7 +111,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -123,7 +124,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -136,14 +137,13 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
-                .body("success", is (true))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
                 .post("image/heo9WsG/favorite");
     }
-    
+
 }
 
 
