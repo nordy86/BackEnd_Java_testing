@@ -2,6 +2,7 @@ package com.geekbrains.backend.test.miniMarket;
 
 import java.util.List;
 
+import com.geekbrains.backend.test.miniMarket.model.Category;
 import com.geekbrains.backend.test.miniMarket.model.Product;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -27,4 +28,7 @@ public interface MiniMarketApi {
 
     @DELETE("products/{id}")
     Call<Object> deleteProduct(@Path("id") Long id);
+
+    @GET("categories/{id}")
+    Call<Category> getCategory(@Path("id") int id);
 }

@@ -2,6 +2,8 @@ package com.geekbrains.backend.test.miniMarket;
 
 import java.io.IOException;
 
+import com.geekbrains.backend.test.miniMarket.model.Category;
+import com.geekbrains.backend.test.miniMarket.model.CategoryResponse;
 import com.geekbrains.backend.test.miniMarket.model.Product;
 import com.geekbrains.backend.test.miniMarket.model.ProductResponse;
 import retrofit2.Response;
@@ -30,4 +32,24 @@ public class MiniMarketService {
         }
         return productResponse;
     }
+
+    public CategoryResponse getCategory(int id) throws IOException {
+        Response<Category> response = api.getCategory(id).execute();
+        CategoryResponse categoryResponse = new CategoryResponse();
+        if (response.isSuccessful()) {
+            categoryResponse.setCategory(response.body());
+        } else {
+            categoryResponse.setError(response.errorBody().string());
+        }
+        return categoryResponse;
+    }
+    public ProductResponse createProduct(Product product)  throws IOException {
+        Response<Object> response = api.createProduct(Product).execute();
+        ProductResponse productResponse = new ProductResponse();
+        if (response.isSuccessful()) {
+            productResponse.setProduct(response.body());
+        } else {
+            productResponse.setError(response.errorBody().string());
+        }
+        return productResponse;
 }
