@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="" />
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiAbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +84,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Hw_Db" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.db.Hw_Db" />
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.Test" />
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.db.TestDb" />
+      <module name="WebUI_Java_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebUI_Java_testing" />
       <extension name="coverage">
@@ -90,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.commentToPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImgurApiFunctionalTest.getAccountBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebUI_Java_testing" />
       <extension name="coverage">
         <pattern>
@@ -100,55 +148,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="commentToPost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImgurApiFunctionalTest.deleteAlbum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebUI_Java_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="deleteAlbum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImgurApiFunctionalTest.deleteImageById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebUI_Java_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="deleteImageById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImgurApiFunctionalTest.favouriteImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebUI_Java_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="favouriteImage" />
+      <option name="METHOD_NAME" value="getAccountBase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.favouriteImage" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteAlbum" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteImageById" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.commentToPost" />
+        <item itemvalue="Application.Hw_Db" />
+        <item itemvalue="Application.TestDb" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,15 @@
       <workItem from="1638984205449" duration="7272000" />
       <workItem from="1639244305384" duration="3475000" />
       <workItem from="1639594525583" duration="1397000" />
-      <workItem from="1639840927025" duration="10233000" />
+      <workItem from="1639840927025" duration="11459000" />
+      <workItem from="1639940202015" duration="2182000" />
+      <workItem from="1639942482165" duration="345000" />
+      <workItem from="1640088907215" duration="12738000" />
+      <workItem from="1640107649336" duration="199000" />
+      <workItem from="1640108027018" duration="244000" />
+      <workItem from="1640271214373" duration="13351000" />
+      <workItem from="1640791056663" duration="1254000" />
+      <workItem from="1640794020850" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
       <created>1638990916597</created>
@@ -192,6 +200,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />

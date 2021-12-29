@@ -1,18 +1,13 @@
 package com.geekbrains.backend.test.imgur;
-
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
-
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
-
     private static String CURRENT_IMAGE_ID;
-
     @Test
     @Order(1)
     void getAccountBase() {
@@ -22,13 +17,13 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
+                .spec(responseSpecification)
                 .body("data.id", is(158044357))
                 .log()
                 .all()
                 .when()
                 .get("account/" + userName);
     }
-
     @Test
     @Order(2)
     void postImageTest() {
@@ -40,6 +35,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
+                .spec(responseSpecification)
                 .body("data.size", is(45428))
                 .body("data.type", is("image/jpeg"))
                 .body("data.name", is("Hackerman"))
@@ -51,7 +47,6 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .body()
                 .jsonPath()
                 .getString("data.id");
-
     }
     @Test
     @Order(3)
@@ -62,13 +57,12 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
                 .delete("image/" + CURRENT_IMAGE_ID);
     }
-
     @Test
     void addImageToAlbumTest() {
         given()
@@ -77,13 +71,12 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
                 .post("album/ih0figh/add");
     }
-
     @Test
     void commentToPost() {
         given()
@@ -93,15 +86,12 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("success", is(true))
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
                 .post("comment");
-
     }
-
     @Test
     void deleteImageById() {
         given()
@@ -110,7 +100,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -123,7 +113,7 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
@@ -136,14 +126,12 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .log()
                 .all()
                 .expect()
-                .body("status", is(200))
-                .body("success", is (true))
+                .spec(responseSpecification)
                 .log()
                 .all()
                 .when()
                 .post("image/heo9WsG/favorite");
     }
-    
+
+
 }
-
-
